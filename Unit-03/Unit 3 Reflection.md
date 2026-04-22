@@ -8,7 +8,7 @@ The next step was creating a define statement: “Sara requires a platform to co
 
 Following that, I used my imagination by creating an idea board for ideas collection. I found color schemes, fonts, family, and Trinidad’s national flag.
 
-Finally, I coded the web page using HTML with semantic tags like <strong>, <em>, and <mark> to make it accessible for screen readers. I added content about Sara's cooking contest win, her favorite dish (doubles), and her cultural background.
+Finally, I coded the web page using HTML with semantic tags like <"strong">, <"em">, and <"mark"> to make it accessible for screen readers. I added content about Sara's cooking contest win, her favorite dish (doubles), and her cultural background.
 
 Overall, this project taught me how to move from empathy to definition to ideation to prototyping. I learned that good web design is not just about code - it's about solving real problems for real people.
 
