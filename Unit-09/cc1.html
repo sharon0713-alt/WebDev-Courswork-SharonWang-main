@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Sara's Trinidadian Kitchen</title>
+</head>
+<body>
+
+    <h1 title="Welcome to Sara's cooking world">Welcome to Sara's Kitchen</h1>
+    
+    <p><strong>Sara</strong> lives in Brooklyn, NY, but her heart is in <em>Trinidad and Tobago</em>. Every summer, she visits her grandparents and learns <mark title="Family recipes passed down through generations">traditional family recipes</mark>.</p>
+    
+    <h2>Sara's Favorite Dish: Doubles</h2>
+    <p>Doubles is fried dough filled with <strong>curry chana (chickpeas)</strong>. It is topped with <u>tamarind sauce</u> and is <em>absolutely delicious</em>!</p>
+    
+
+    <button onclick="showRecipe()">Show Full Recipe</button>
+    
+    <h2>Sara's Favorite Foods</h2>
+    <ul>
+        <li>Doubles (fried dough with curry chickpeas)</li>
+        <li>Bake and Shark (fried bread with seasoned shark)</li>
+        <li>Pelau (rice and pigeon peas with meat)</li>
+        <li>Callaloo (creamy spinach-like soup)</li>
+        <li>Aloo Pie (fried pastry filled with spiced potatoes)</li>
+    </ul>
+    
+    <h2>Sara's Favorite Colors</h2>
+    <p>Sara loves 
+        <mark style="background-color: red; color: white;" onclick="showColorInfo('red')" title="Click to learn more">red</mark> and 
+        <mark style="background-color: gold;" onclick="showColorInfo('gold')" title="Click to learn more">gold</mark>. 
+        Red reminds her of the <strong>Trinidad and Tobago flag</strong>. Gold reminds her of the <em>warm sun</em>.
+    </p>
+    
+    <h2>Why This Content?</h2>
+    <p>I chose these items because they reflect Sara's <strong title="Her motivation and inspiration">love for family, culture, and cooking</strong>. The red and gold colors represent her heritage. The dish <u>doubles</u> is a symbol of her connection to her grandmother and Trinidad.</p>
+    
+ 
+    <button onclick="showWelcomeMessage()">Click for a Welcome Message</button>
+
+    <script>
+
+        function showRecipe() {
+            alert("Doubles Recipe:\n\nIngredients:\n- Flour\n- Chickpeas (curry chana)\n- Tamarind sauce\n- Pepper\n- Oil for frying\n\nSteps:\n1. Prepare dough and let it rise\n2. Make curry chana with spices\n3. Roll and flatten dough\n4. Deep fry until golden\n5. Top with chana, tamarind sauce, and pepper\n6. Serve warm!");
+        }
+        
+
+        function showColorInfo(color) {
+            if (color === 'red') {
+                alert("Red represents the Trinidad and Tobago flag! 🇹🇹 It symbolizes the strength and energy of the people.");
+            } else if (color === 'gold') {
+                alert("Gold reminds Sara of the warm Caribbean sun! ☀️ It represents happiness and the beautiful beaches of Trinidad.");
+            }
+        }
+        
+
+        function showWelcomeMessage() {
+            alert("🇹🇹 Welcome to Sara's Kitchen! 🇹🇹\n\nThank you for visiting. Sara hopes you enjoy learning about Trinidadian food and culture!");
+        }
+    </script>
+
+</body>
+</html>
