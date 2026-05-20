@@ -1,3 +1,10 @@
 # Unit 10 Reflection
+In Unit 10 I learned how to combine HTML, CSS and JavaScript to make a full multi-page website with a consistent navigation bar. I also learnt the important principles of web designing to make websites more user friendly and professional.
 
-[Reflect on your journey here]
+Initially, I used HTML, CSS, and JavaScript to build a working website. HTML gave it structure, CSS gave it style and layout, and JavaScript gave it interactivity. I learned how these three technologies work together to create modern dynamic web pages.
+
+Next, I learned how to make and implement a navigation bar. A website needs a navigation bar. It’s usually at the top of the page and has links to other pages like Home, About and Contact. I learned to use an unordered list (ul), list items (li) and anchor tags (a) to build the navigation bar. I styled the navigation bar to be horizontal using css and used media queries to make it responsive - on mobile screen the navigation bar changes from horizontal to vertical for better usability. I also learned how to link multiple HTML pages together so that users can easily navigate between them.
+
+Lastly, I learned the important principles of web design. Visual hierarchy is the arrangement of elements so that the most important information stands out through size, color and position. Consistent design – means you use the same fonts, colors, and button styles on all pages so users don’t become confused. Navigability is providing users the ability to easily find what they’re looking for and navigate around the website. Color theory and typography can establish the right mood and make text readable. I learned to select colors that contrast well and fonts that are legible on all devices.
+
+Last but not least, Unit 10 taught me how to build a complete multi-page website with a responsive navigation bar and apply professional design principles. I now understand that good web design is not just about code - it is about creating an experience that is easy, consistent, and enjoyable for users.
