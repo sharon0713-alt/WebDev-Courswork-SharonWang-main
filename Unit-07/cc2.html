@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Community Hub</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        
+        nav {
+            background-color: #2c3e50;
+            padding: 15px 0;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+        
+        nav a:hover {
+            background-color: #e74c3c;
+        }
+        
+        .hero {
+            background-color: #e74c3c;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .hero h2 {
+            font-size: 28px;
+            margin: 0 0 15px 0;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin: 0;
+        }
+        
+        .section-title {
+            color: #2c3e50;
+            border-left: 5px solid #e74c3c;
+            padding-left: 15px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .card h3 {
+            color: #e74c3c;
+            margin-top: 0;
+        }
+        
+        .event-list {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            list-style-type: none;
+            margin-bottom: 30px;
+        }
+        
+        .event-list li {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+        }
+        
+        .event-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .event-date {
+            color: #e74c3c;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        
+        .member-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .member {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            min-width: 120px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .member-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        
+        .member h4 {
+            margin: 10px 0 5px 0;
+            color: #2c3e50;
+        }
+        
+        .member p {
+            margin: 0;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .join-btn {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 15px 30px;
+            background-color: #e74c3c;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: background-color 0.3s;
+        }
+        
+        .join-btn:hover {
+            background-color: #c0392b;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+        footer a {
+            color: #d4af37;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+            
+            .card-container {
+                flex-direction: column;
+            }
+            
+            .member-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Community Hub</h1>
+    <p class="subtitle">Connect. Share. Grow Together.</p>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">Members</a>
+        <a href="#">Resources</a>
+        <a href="#">Contact</a>
+    </nav>
+    
+    <div class="hero">
+        <h2>Welcome to Our Community</h2>
+        <p>A place where neighbors become friends and ideas become reality. Join us in building a stronger, more connected community.</p>
+    </div>
+    
+    <h2 class="section-title">What We Offer</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Workshops</h3>
+            <p>Learn new skills from community experts. Topics include coding, gardening, art, and more.</p>
+        </div>
+        <div class="card">
+            <h3>Social Events</h3>
+            <p>Meet new people at our monthly potlucks, game nights, and outdoor activities.</p>
+        </div>
+        <div class="card">
+            <h3>Volunteer</h3>
+            <p>Give back to the community through local cleanups, food drives, and mentoring programs.</p>
+        </div>
+    </div>
+    
+    <h2 class="section-title">Upcoming Events</h2>
+    <ul class="event-list">
+        <li><span class="event-date">May 28, 2025</span> Community Potluck - Bring a dish to share!</li>
+        <li><span class="event-date">June 5, 2025</span> Web Development Workshop - Learn HTML & CSS</li>
+        <li><span class="event-date">June 12, 2025</span> Park Cleanup Day - Help keep our neighborhood beautiful</li>
+        <li><span class="event-date">June 20, 2025</span> Book Club Meeting - Discussing "The Midnight Library"</li>
+    </ul>
+    
+    <h2 class="section-title">Meet Our Members</h2>
+    <div class="member-grid">
+        <div class="member">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sarah" class="member-img">
+            <h4>Sarah</h4>
+            <p>Community Organizer</p>
+        </div>
+        <div class="member">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael" class="member-img">
+            <h4>Michael</h4>
+            <p>Web Developer</p>
+        </div>
+        <div class="member">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Lisa" class="member-img">
+            <h4>Lisa</h4>
+            <p>Volunteer Lead</p>
+        </div>
+        <div class="member">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David" class="member-img">
+            <h4>David</h4>
+            <p>Event Coordinator</p>
+        </div>
+    </div>
+    
+    <a href="#" class="join-btn">Join Our Community</a>
+    
+    <footer>
+        <p>&copy; 2025 Community Hub</p>
+        <p><a href="#">Contact Us</a> | <a href="#">Privacy Policy</a> | <a href="#">Follow us on Social Media</a></p>
+    </footer>
+
+</body>
+</html>
