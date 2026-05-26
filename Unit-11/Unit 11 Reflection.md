@@ -1,3 +1,3 @@
 # Unit 11 Reflection
 
-[Reflect on your journey here]
+Unit 11 allowed me to reflect back on my learning journey. When I started I didn’t know much about web design. I can now build full multi-page websites with HTML, CSS and JavaScript. I learned about the history of the web, the design thinking process, accessibility, responsive design and working with a real client. I made many mistakes along the way, and each one was a lesson. I’ve become a lot more confident. Looking ahead I want to do more Javascript, improve my responsive designs and build personal projects. This course built a solid foundation for me and I look forward to learning more.
