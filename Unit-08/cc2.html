@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Position Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+        
+        .normal-box {
+            background-color: #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            width: 300px;
+            border-radius: 5px;
+        }
+        
+        .relative-box {
+            background-color: #b22222;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            width: 300px;
+            border-radius: 5px;
+            position: relative;
+            top: 20px;
+            left: 30px;
+        }
+        
+        .absolute-container {
+            position: relative;
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            margin: 30px 0;
+            min-height: 100px;
+            border-radius: 10px;
+        }
+        
+        .absolute-badge {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: #e74c3c;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .fixed-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .fixed-button:hover {
+            background-color: #e74c3c;
+        }
+        
+        .sticky-header {
+            position: sticky;
+            top: 0;
+            background-color: #d4af37;
+            color: #b22222;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 20px 0;
+            z-index: 10;
+        }
+        
+        .scroll-area {
+            height: 250px;
+            background-color: #e0e0e0;
+            padding: 15px;
+            margin: 10px 0;
+            overflow: auto;
+            border-radius: 8px;
+        }
+        
+        .scroll-area p {
+            margin: 10px 0;
+        }
+        
+        .box-model-demo {
+            background-color: #f5f0e0;
+            padding: 20px;
+            margin: 30px 0;
+            border: 4px solid #b22222;
+            border-radius: 15px;
+        }
+        
+        .box-model-demo h3 {
+            margin: 0 0 10px 0;
+            color: #b22222;
+        }
+        
+        .box-model-demo p {
+            margin: 0;
+            color: #333;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Position & Box Model Demo</h1>
+    
+    <h2>1. Normal Position (Static)</h2>
+    <div class="normal-box">This box is in normal position. No positioning applied.</div>
+    
+    <h2>2. Relative Position</h2>
+    <div class="relative-box">This box is moved 20px DOWN and 30px RIGHT from its normal position.</div>
+    <div class="normal-box">This normal box shows where the relative box would originally be.</div>
+    
+    <h2>3. Absolute Position</h2>
+    <div class="absolute-container">
+        This container has <strong>position: relative</strong>
+        <p>The red badge below uses <strong>position: absolute</strong> and is placed at the top-right corner of this container.</p>
+        <div class="absolute-badge">NEW!</div>
+    </div>
+    
+    <h2>4. Sticky Position</h2>
+    <div class="sticky-header">
+        ⭐ STICKY HEADER - Scroll down inside the box below to see me stick to the top ⭐
+    </div>
+    <div class="scroll-area">
+        <p><strong>Scroll inside this area</strong> ⬇️</p>
+        <p>Line 1 - Keep scrolling...</p>
+        <p>Line 2 - The yellow header will stick to the top</p>
+        <p>Line 3 - This is a demo of sticky positioning</p>
+        <p>Line 4 - It stays fixed while scrolling</p>
+        <p>Line 5 - Then returns to normal when you scroll back up</p>
+        <p>Line 6 - Try it yourself!</p>
+        <p>Line 7 - Scroll more...</p>
+        <p>Line 8 - Almost there...</p>
+        <p>Line 9 - You made it to the bottom!</p>
+    </div>
+    
+    <h2>5. Box Model Example</h2>
+    <div class="box-model-demo">
+        <h3>What is the Box Model?</h3>
+        <p>Every element on a web page is a box. This box has:</p>
+        <ul>
+            <li><strong>Margin:</strong> 30px (space outside the border)</li>
+            <li><strong>Border:</strong> 4px solid red</li>
+            <li><strong>Padding:</strong> 20px (space inside the border)</li>
+            <li><strong>Content:</strong> This text is the content</li>
+        </ul>
+    </div>
+    
+    <h2>6. Sara's Kitchen Preview</h2>
+    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop" 
+         alt="Trinidadian Doubles dish" 
+         style="width: 100%; max-width: 400px; border-radius: 15px; border: 3px solid #d4af37; display: block; margin: 0 auto;">
+    
+    <p style="text-align: center; margin-top: 15px;"><strong>Doubles</strong> - Traditional Trinidadian dish from Sara's family recipe</p>
+    
+    <footer>
+        <p>&copy; 2025 Position & Box Model Demo</p>
+        <p><small>Fixed button in bottom right corner shows <strong>position: fixed</strong></small></p>
+    </footer>
+
+    <a href="#" class="fixed-button">↑ Back to Top</a>
+
+</body>
+</html>
